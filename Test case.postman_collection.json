@@ -1,0 +1,42 @@
+{
+	"info": {
+		"_postman_id": "2f5dc84f-993e-42d3-93d2-98d2e3dd0ba0",
+		"name": "Test case",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get coordinates",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://maps.googleapis.com/maps/api/geocode/json?address=1600+Amphitheatre+Parkway,\n+Mountain+View,+CA&key=AIzaSyAduI45QgLRByWTZmDmiaa-uc7wT6skMDo​",
+					"protocol": "https",
+					"host": [
+						"maps",
+						"googleapis",
+						"com"
+					],
+					"path": [
+						"maps",
+						"api",
+						"geocode",
+						"json"
+					],
+					"query": [
+						{
+							"key": "address",
+							"value": "1600+Amphitheatre+Parkway,\n+Mountain+View,+CA"
+						},
+						{
+							"key": "key",
+							"value": "AIzaSyAduI45QgLRByWTZmDmiaa-uc7wT6skMDo​"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
