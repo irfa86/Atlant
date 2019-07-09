@@ -1,0 +1,20 @@
+{
+	"info": {
+		"_postman_id": "23fa2f33-e944-4d1e-b482-23e1bd6abe13",
+		"name": "Atlant",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Atlant",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	]
+}
